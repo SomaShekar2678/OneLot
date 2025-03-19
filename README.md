@@ -49,19 +49,19 @@ GET http://localhost:5000/price-range?model=Vios
     "model": "Vios"
   }
 ]
-Most Common Car
+### Most Common Car
 CopyGET http://localhost:5000/top-common?month=2025-03
 Response:
-jsonCopy{
+{
   "car_name": "Toyota",
   "count": 93,
   "model": "Fortuner",
   "month": "2025-03"
 }
-Least Common Car
+### Least Common Car
 CopyGET http://localhost:5000/least-common?month=2025-03
 Response:
-jsonCopy{
+{
   "car_name": "Audi",
   "count": 1,
   "model": "A3",
