@@ -40,8 +40,7 @@ Copy- Python 3.11
 
 ### Price Range
 GET http://localhost:5000/price-range?model=Vios
-CopyResponse:
-```json
+
 [
   {
     "car_name": "Toyota",
